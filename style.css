@@ -4,10 +4,11 @@ body {
 }
 
 .card {
-    width:600px;
+    width:400px;
     background: #fff;
     margin: 16px auto;
     padding: 4px;
+    border-top: dashed 2px pink;
 }
 
 .header {
@@ -15,11 +16,45 @@ body {
     margin:4px;
 }
 
-li {
+.header:hover {
+    color:rgba(255, 192, 203, 0.733);
+    margin:4px;
+}
+
+li::marker {
     color:#eee;
+}
+
+li {
+    color:rgb(71, 71, 71);
 }
 
 a {
     color:#5D5698;
     text-decoration-style:dashed;
+}
+
+a:hover {
+    color:#5d5698b0;
+    text-decoration:underline;
+}
+
+img {
+    display:flex;
+    border-top: dashed 2px pink;
+    width:392px;
+    height:auto;
+    margin:4px auto;
+
+}
+
+.back {
+    color:rgb(165, 165, 165);
+    font-size:8px;
+    margin:4px;
+    text-decoration:none;
+}
+
+.back:hover {
+    color:rgb(99, 99, 99);
 }
