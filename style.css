@@ -1,0 +1,25 @@
+body {
+    background:#eee;
+    font-family:monospace;
+}
+
+.card {
+    width:600px;
+    background: #fff;
+    margin: 16px auto;
+    padding: 4px;
+}
+
+.header {
+    color:pink;
+    margin:4px;
+}
+
+li {
+    color:#eee;
+}
+
+a {
+    color:#5D5698;
+    text-decoration-style:dashed;
+}
