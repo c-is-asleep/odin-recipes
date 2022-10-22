@@ -30,12 +30,19 @@ h2 {
 }
 
 
-li::marker {
+ul li::marker {
+    content:'♥ ';
+    color:rgb(148, 165, 197);
+}
+
+ol li::marker {
     color:rgb(148, 165, 197);
 }
 
 li {
     color:rgb(116, 116, 116);
+    box-sizing: border-box;
+    padding-right:4px;
 }
 
 a {
@@ -81,6 +88,7 @@ h5{
 }
 
 ::selection {
-    background:#eee
+    background:pink;
+    color:white;
 }
 
