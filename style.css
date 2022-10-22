@@ -12,13 +12,13 @@ body {
     border-bottom: solid 4px rgb(224, 224, 224);
 }
 
-.header {
+h1{
     color:pink;
     margin:4px;
     padding:4px;
 }
 
-.header:hover {
+h1:hover {
     color:rgba(255, 192, 203, 0.733);
     margin:4px;
 }
@@ -79,3 +79,8 @@ h5{
     text-align: center;
     color:rgb(163, 163, 163)
 }
+
+::selection {
+    background:#eee
+}
+
