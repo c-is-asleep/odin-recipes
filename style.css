@@ -29,6 +29,10 @@ h2 {
     padding:4px;
 }
 
+h2::selection {
+    background-color:rgb(192, 214, 255);
+    color:white;
+}
 
 ul li::marker {
     content:'♥ ';
